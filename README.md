@@ -1,7 +1,7 @@
 [![Python 3.6](https://img.shields.io/badge/python-3.6-yellow.svg)](https://www.python.org/downloads/release/python-360/)
 ![Django 3.0](https://img.shields.io/badge/Django-3.0-green.svg)
 [![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)]()
-# Chess-Gang
+# Chaos-Chess / Chess-Gang
 
 ASGI Django Server to play Chess in real-time using Django Channels and Redis.
 
