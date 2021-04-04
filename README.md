@@ -19,6 +19,9 @@ Prod branch was made keeping in mind the end result of deployment on Heroku usin
 2. Add the Heroku Redis addon to the application (free-tier available)  
 3. Link the cloned repo to your application and deploy
 
+## Development Repo( Its messy though)
+https://github.com/mustankap/KJSCE-Hack
+
 ## Features Included 
 - Custom Admin dashboard
 - Create Game
