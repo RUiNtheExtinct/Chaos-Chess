@@ -19,3 +19,41 @@ Prod branch was made keeping in mind the end result of deployment on Heroku usin
 1. Clone this branch and create a new application on Heroku  
 2. Add the Heroku Redis addon to the application (free-tier available)  
 3. Link the cloned repo to your application and deploy
+
+## Features Included 
+- Custom Admin dashboard
+- Create Game
+- Join Game
+- View Public games 
+- Single player 
+- Dashboard of past games and log
+- Add friend
+- Responsive, mobile-friendly design
+- Forgot password 
+- User registration
+- Much more...
+
+## Installation
+
+**1. Clone Repository & Install Packages**
+```sh
+git clone 
+pip install -r requirements.txt
+```
+**2. Setup Environment**
+```sh
+python -m  venv venv
+source venv/bin/activate
+``````
+OR on Windows
+```sh
+python -m  venv venv
+activate.bat
+``````
+
+**3. Migrate & Start Server**
+```sh
+python manage.py makemigrations
+python manage.py migrate
+python manage.py runserver
+```
