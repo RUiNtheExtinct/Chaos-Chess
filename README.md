@@ -2,6 +2,9 @@
 
 ASGI Django Server to play Chess in real-time using Django Channels and Redis.
 
+Video Link : https://youtu.be/1vTLLf82KwE
+
+
 ## `master branch`
 Master branch is for developement Django server to be run on local system (Windows). Follow these steps to use:  
 1. Install all the dependencies by running `pipenv install` (install pipenv first)  
