@@ -89,7 +89,7 @@
   <div id="myBoard" style="width: 400px; margin-left: auto; margin-right: auto;" class="p-2"></div>
   <div style="text-align: center">
     <button class="btn btn-danger m-1" id="resign">Resign</button> <button class="btn btn-success m-1" id="flip">Flip</button> <button class="btn btn-info m-1" id="undo">Undo</button>
-    AI level: 
+    AI level:
     <select class="custom-select" id="level" style="width:150px" onchange="AIchange(this)">
       <option value="3">Advanced</option>
       <option value="2">Intermediate</option>
@@ -194,7 +194,7 @@
       $('#gameModal').modal({
         keyboard: false,
         backdrop: 'static'
-      }); 
+      });
     }
     else if (game.in_draw()) {
       status = 'Game over, drawn position'
@@ -260,7 +260,7 @@
       onSnapEnd: onSnapEnd,
       onMouseoutSquare: onMouseoutSquare,
       onMouseoverSquare: onMouseoverSquare,
-      pieceTheme: '/static/chessboard/{piece}.png',
+      pieceTheme: 'https://github.com/RUiNtheExtinct/static_img/blob/master/chessboard/{piece}.png?raw=true',
       orientation: data.orientation
       }
       board = Chessboard('myBoard', config)

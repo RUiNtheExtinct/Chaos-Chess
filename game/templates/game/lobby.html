@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 
 {%block title%}Lobby{% endblock %}
-  
+
 {% block navbar %}
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
@@ -30,8 +30,8 @@
 {% block body %}
   <div class="jumbotron">
     <div class="container">
-      <h1 class="display-3">Chess Gang <img class="mb-1" alt="" width="100" height="100" src="/static/chess.png"></h1> 
-      <p>Welcome to Chess Gang! Play real-time multiplayer chess with your friends or just practice on Single Player Mode</p>
+      <h1 class="display-3">Chaos Chess <img class="mb-1" alt="" width="100" height="100" src="https://github.com/RUiNtheExtinct/static_img/blob/master/chess.png?raw=true"></h1>
+      <p>Welcome to Chaos Chess! Play real-time multiplayer chess with your friends or just practice on Single Player Mode</p>
       <p><a class="btn btn-primary btn-lg" href="/create" role="button">Create a Game &raquo;</a></p>
     </div>
   </div>
@@ -40,7 +40,7 @@
     <div class="row">
      <div class="col-md-4">
         <h2>Single Player Game</h2>
-        <p>Play with our Chess AI and upskill now!</p>
+        <p>Practice with the Chess AI!</p>
         <p><a class="btn btn-secondary" href="/single" role="button">Start &raquo;</a></p>
       </div>
       <div class="col-md-4">
@@ -53,7 +53,7 @@
         <p>View games that you've completed and track your progress</p>
         <p><a class="btn btn-secondary" href="/completed" role="button">View &raquo;</a></p>
       </div>
-    </div> 
+    </div>
     <hr>
   </div>
 
@@ -74,9 +74,9 @@
       {% empty %}
         <p>There seems to be no public games right now. </p> <a class="btn btn-secondary mx-2" href="/create" role="button">Create &raquo;</a>
       {% endfor %}
-    </div> 
+    </div>
     <hr>
   </div>
-  
+
 
 {% endblock %}

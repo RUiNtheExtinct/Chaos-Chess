@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Log In</title>
-    <link rel="shortcut icon" href="/static/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/RUiNtheExtinct/static_img/master/favicon.ico" type="image/x-icon">
 
     <!--CSS CDNs-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -79,8 +79,8 @@
   <body class="text-center">
     <form class="form-signin" method="post" action="{% url 'login' %}">
       {% csrf_token %}
-      <img class="mb-1" alt="" width="100" height="100" src="{% static 'chess.png' %}">
-      <h1 class="h3 mb-3 font-weight-normal">Chess Gang</h1>
+      <img class="mb-1" alt="" width="100" height="100" src="https://github.com/RUiNtheExtinct/static_img/blob/master/chess.png?raw=true">
+      <h1 class="h3 mb-3 font-weight-normal">Chaos Chess</h1>
       {% if form.errors %}
         {% for field in form %}
           {% for error in field.errors %}

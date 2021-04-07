@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
 <!doctype html>
 
-{%block title%}Multiplayer Chess{% endblock %}
+{%block title%}Chaos Chess: Multiplayer Mode{% endblock %}
 
 {% block cdn %}
   <link rel="stylesheet" href="https://unpkg.com/@chrisoakman/chessboardjs@1.0.0/dist/chessboard-1.0.0.min.css" integrity="sha384-q94+BZtLrkL1/ohfjR8c6L+A6qzNH9R2hBLwyoAfu3i/WCvQjzL2RQJ3uNHDISdU" crossorigin="anonymous">
@@ -171,7 +171,7 @@
       $('#gameModal').modal({
         keyboard: false,
         backdrop: 'static'
-      }); 
+      });
     }
     else if (game.in_draw()) {
       status = 'Game over, drawn position'
@@ -234,7 +234,7 @@
       onSnapEnd: onSnapEnd,
       onMouseoutSquare: onMouseoutSquare,
       onMouseoverSquare: onMouseoverSquare,
-      pieceTheme: '/static/chessboard/{piece}.png',
+      pieceTheme: 'https://github.com/RUiNtheExtinct/static_img/blob/master/chessboard/{piece}.png?raw=true',
       orientation: data.orientation
       }
       board = Chessboard('myBoard', config)
